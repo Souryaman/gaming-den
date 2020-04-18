@@ -1,0 +1,54 @@
+body{
+    background-image: url("contact.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Sidenav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: aqua;
+    overflow: auto;
+}
+
+.Sidenav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding : 16px 8px 8px 18px ;
+     text-decoration: black;
+    font-size : 24px;
+    width: 31%;
+    display :block;
+    
+}
+
+.Sidenav a:hover{
+    color: black;
+}
+
+h1{
+    color:black;
+    font-size: 50px;
+    padding-top:3%;
+    padding-left:45%;
+    text-decoration: none;
+    text-shadow: 1px 2px black;
+    font-family:fantasy ;
+}
+
+h2{
+    color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 45%;
+    text-shadow: 1px 2px black;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+
+    text-align: center;
+}
